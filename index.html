@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>월급쟁이 피키대디 · 영상 속 상품</title>
+<style>
+:root{--bg:#f6f6f4;--card:#fff;--ink:#1c1c1c;--dim:#6b6b6b;--line:#e4e4e0;--acc:#e8473b}
+@media (prefers-color-scheme:dark){:root{--bg:#141414;--card:#1f1f1f;--ink:#f0f0f0;--dim:#a0a0a0;--line:#2e2e2e}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);
+font-family:-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif}
+main{max-width:520px;margin:0 auto;padding:18px 16px 40px}
+h1{font-size:20px;margin:6px 0 4px}.disc{font-size:12px;color:var(--dim);line-height:1.5;margin:0 0 14px}
+.find{display:flex;gap:8px;margin-bottom:14px}.find input{flex:1;font-size:16px;padding:11px 12px;border:1px solid var(--line);
+border-radius:10px;background:var(--card);color:var(--ink)}.find button{font-size:15px;padding:0 16px;border:0;border-radius:10px;
+background:var(--acc);color:#fff}
+.card{display:grid;grid-template-columns:auto 64px 1fr;grid-template-rows:auto auto;gap:2px 12px;align-items:center;
+background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px;margin-bottom:10px;
+color:inherit;text-decoration:none}.card.hit{outline:3px solid var(--acc)}
+.no{grid-row:1/3;font-size:22px;font-weight:800;color:var(--acc);min-width:36px;text-align:center}
+.card img,.noimg{grid-row:1/3;width:64px;height:64px;border-radius:10px;object-fit:cover;background:var(--line)}
+.name{font-size:14px;line-height:1.35;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.go{font-size:12.5px;color:var(--acc);font-weight:700}.empty{color:var(--dim)}
+</style></head><body><main>
+<h1>월급쟁이 피키대디 · 영상 속 상품</h1>
+<p class="disc">이 게시물은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+<form class="find" onsubmit="go();return false"><input id="q" type="number" inputmode="numeric" placeholder="영상에 나온 번호">
+<button>찾기</button></form>
+<a class="card" id="n1" href="https://link.coupang.com/a/hRTqFx9TUa" target="_blank" rel="sponsored noopener"><span class="no">1</span><img src="https://t3a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/4998/b01179033f082cb2fe03a9b154ba0ce68912f88cb7cf143eeedd718061ed.jpg" alt="" loading="lazy"><span class="name">Oyoson 만능 채칼 손보호 다기능 야채 절단기 16중세트, 회색</span><span class="go">쿠팡에서 보기 ›</span></a>
+</main>
+<script>
+function go(){var n=document.getElementById('q').value,e=document.getElementById('n'+n);
+document.querySelectorAll('.hit').forEach(function(x){x.classList.remove('hit')});
+if(e){e.classList.add('hit');e.scrollIntoView({behavior:'smooth',block:'center'})}else alert(n+'번 상품이 없어요');}
+if(location.hash.match(/^#\d+$/)){document.getElementById('q').value=location.hash.slice(1);go();}
+</script></body></html>
