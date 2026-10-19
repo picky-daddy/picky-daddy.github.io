@@ -50,7 +50,7 @@ export const WARNING_LABEL: Record<WarningCode, string> = {
 
 export const REJECT_MESSAGE: Record<RejectReason, { title: string; hint: string }> = {
   NOT_MEAT: { title: "고기 팩을 찾지 못했어요", hint: "매대의 포장육 팩이 화면에 들어오게 다시 찍어주세요." },
-  WRONG_TYPE: { title: "선택한 부위와 다른 고기예요", hint: "상단 탭에서 부위를 다시 선택해 주세요." },
+  WRONG_TYPE: { title: "아직 지원하지 않는 고기예요", hint: "삼겹살 · 목살 · 척아이롤 팩을 찍어주세요." },
   NO_PACKS: { title: "팩이 보이지 않아요", hint: "2~4개 팩이 한 화면에 모두 들어오게 찍어주세요." },
   TOO_BLURRY: { title: "사진이 흐려요", hint: "휴대폰을 잠시 고정한 뒤 다시 찍어주세요." },
 };
