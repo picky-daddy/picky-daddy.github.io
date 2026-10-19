@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+/* 정육점 프리미엄 컨셉: 숯빛 다크 + 핏빛 레드 + 로얄 골드 */
+@theme {
+  --color-bg: #0d0a0a;
+  --color-surface: #171111;
+  --color-surface-2: #211818;
+  --color-line: #33272699;
+  --color-ink: #f5ede9;
+  --color-dim: #a8968f;
+  --color-blood: #d7332b;
+  --color-blood-deep: #8e1a17;
+  --color-gold: #e9b44c;
+  --color-fat: #f4e7dc;
+  --color-lean: #d4615a;
+  --color-ok: #6fbf73;
+
+  --font-sans: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Malgun Gothic",
+    "Noto Sans KR", sans-serif;
+}
+
+html {
+  color-scheme: dark;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background:
+    radial-gradient(120% 600px at 50% -10%, #3a0f0d 0%, transparent 60%) no-repeat,
+    var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  word-break: keep-all;
+}
